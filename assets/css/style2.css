@@ -1,0 +1,503 @@
+
+body {
+	background-color: gold;
+}
+
+.title {
+	width: 95%;
+	text-align: center;
+}
+
+.header {
+	position: absolute;
+	background-color: black;
+	color: gold;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 26px;
+	margin-left: 10%;
+	padding: 1% 1% .25% 1%;
+	height: 6.2%;
+	width: 15%;
+	z-index: 2;
+	}
+
+.links {
+	position: absolute;
+	background-color: black;
+	font-family: Georgia;
+	font-size: 14px;
+	border-bottom: 3px solid white;
+	top: 0;
+	width: 30%;
+	height: 6%;
+	left: 0;
+	z-index: 1;
+	padding-top: 2%;
+	padding-left: 70%;
+	}
+
+.pageheader {
+	background-color: black;
+	color: orangered;
+	font-family: Georgia;
+	font-size: 20px;
+	padding-left: 3%;
+	}
+
+.body {
+	position: absolute;
+	top: 20%;
+	background-color: black;
+	color: gold;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	font-family: Helvetica;
+	font-size: 12px;	
+	height: 60%;
+	width: 54%;
+	}
+
+#bio-image {
+	float: left;
+	padding: 1% 2% 100%
+	}
+
+#p {
+	font-family: Georgia;
+	font-size: 12px;
+}
+
+.body2 {
+	position: absolute;
+	background-color: black;
+	margin-left: 10%;
+	height: 900px;
+	width: 52%;
+	margin-bottom: 20%;
+	top: 20%;
+	z-index: 4;
+	}
+
+.body3 {
+	position: absolute;
+	top: 20%;
+	background-color: black;
+	color: gold;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	font-family: Helvetica;
+	font-size: 12px;	
+	height: 65%;
+	width: 52%;
+	}
+
+.connect {
+	text-align: center;
+	position: absolute;
+	padding-top: 4%;
+	width: 12%;
+	height: 8%;
+	top: 20%;
+	left: 70%;
+	}
+
+.connectme {
+	color:black;
+	position: absolute;
+	font-family: "Georgia";
+	font-size: 12.5px;
+	text-align: center;
+	top: 0;
+	left: 15%;
+	}
+
+.buttons:link {
+	color: orangered;
+	text-decoration: none;
+	}
+
+.buttons:visited {
+	color: orangered;
+	text-decoration: none;
+	}	
+
+.buttons:hover {
+	color: gold;
+	text-decoration: none;
+	}
+
+
+#imageone {
+	background-color: black;
+	color: gold;
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	height: 35px;
+	width: 300px;
+	top:  23%;
+	left: 3.4%;
+	z-index: 3;
+	}
+
+#spin {
+	position: absolute;
+	top:  8%;
+	left: 3.4%;
+	z-index: 0;
+	}
+
+#imagetwo {
+	background-color: black;
+	color: gold;
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	height: 35px;
+	width: 300px;
+	top:  23%;
+	left: 51%;
+	z-index: 3;
+	}
+
+#cook {
+	position: absolute;
+	top: 8%;
+	left: 51%;
+	z-index: 0;
+	}
+
+#imagethree {
+	background-color: black;
+	color: gold;
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	height: 35px;
+	width: 300px;
+	top: 47%;
+	left: 3.4%;
+	z-index: 3;
+	}
+
+#travel {
+	position: absolute;
+	top: 32%;
+	left: 3.4%;
+	z-index: 0;
+	}
+
+
+#imagefour {
+	background-color: black;
+	color: gold;
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	height: 35px;
+	width: 300px;
+	top: 47%;
+	left: 51%;
+	z-index: 3;
+	}
+
+#music {
+	position: absolute;
+	top: 32%;
+	left: 51%;
+	z-index: 0;
+	}
+
+
+#imagefive {
+	background-color: black;
+	color: gold;
+	font-family: Georgia;
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	height: 35px;
+	width: 300px;
+	top: 71%;
+	left: 3.4%;
+	z-index: 3;
+	}
+
+#read {
+	position: absolute;
+	top: 56%;
+	left: 3.4%;
+	z-index: 0;
+	}
+
+#messageone {
+	font-family: Georgia;
+	font-size: 14;
+	padding-left: 3%;
+	}
+
+#messagetwo {
+	font-family: Georgia;
+	font-size: 14;
+	padding-left: 3%;
+	}
+
+#messagethree {
+	font-family: Georgia;
+	font-size: 14;
+	padding-left: 3%;
+	}
+
+.textbox {
+	background-color: beige;
+	color: black;
+	width: 90%;
+	padding-left: 1%;
+	margin-left: 4%;
+	margin-right: 3%;
+	}
+
+.textbox2 {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	background-color: beige;
+	color: black;
+	height: 180px;
+	width: 91.5%;
+	padding-left: 1%;
+	margin-left: 4%;
+	margin-right: 3%;
+	padding-bottom: 145px;
+	box-sizing: border-box;
+	}
+
+.contacttext {
+	font-family: Georgia;
+	font-size: 13px;
+	padding-left: 4%;
+	}
+
+input[type=submit] {
+	position: absolute;
+	top: 87%;
+	left: 4%;
+    padding:5px 15px; 
+    background: beige;
+    font-family: Georgia;
+    color: black; 
+    cursor:pointer;
+	}
+
+.foot{
+	background-color: black;
+	font-family: Georgia;
+	font-size: 13px;
+	color: gold;
+	text-align: center;
+	border-top: 3px solid white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 6%;
+	padding-top: 2%;
+	z-index: 999;
+	}
+
+/* Media Queries */
+
+@media screen and (max-width:980px){
+	.header {
+		width:20%;
+		padding: .5%;
+	}
+	.body {
+		width:55%;
+		height:80%;
+	}
+	.body2 {
+		width:55%;
+		height:100%;
+	}
+	#imageone, #imagetwo {
+		width: 45%;
+		height: 5%;
+		top: 27%;
+	}
+	#imagethree, #imagefour {
+		width: 45%;
+		height: 5%;
+		top: 57%;
+	}
+	#imagefive {
+		width: 45%;
+		height: 5%;
+		top: 87%;
+	}
+	#spin, #cook {
+		width: 45%;
+		height: 25%;
+		top: 12%;
+	}
+	#travel, #music {
+		width: 45%;
+		height: 25%;
+		top: 42%;
+	}
+	#read {
+		width: 45%;
+		height: 25%;
+		top: 72%;
+	}
+	.body3 {
+		width:55%;
+		height: 67%;
+	}
+	.connect {
+		width:20%;
+		padding-top: 5%;
+	}
+	.connectme{
+		width:70%;
+	}
+	.links {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:768px){
+	.header {
+		width:24%;
+		padding: 0;
+	}
+	.body {
+		width:62%;
+		height:90%;
+	}
+	#bio-image {
+		width: 38%;
+		height: 32%;
+	}
+	.body2 {
+		width: 63%;
+		height: 100%;
+	}
+	#imageone, #imagetwo {
+		width: 45%;
+		height: 5%;
+		top: 27%;
+	}
+	#imagethree, #imagefour {
+		width: 45%;
+		height: 5%;
+		top: 57%;
+	}
+	#imagefive {
+		width: 45%;
+		height: 5%;
+		top: 87%;
+	}
+	#spin, #cook {
+		width: 45%;
+		height: 25%;
+		top: 12%;
+	}
+	#travel, #music {
+		width: 45%;
+		height: 25%;
+		top: 42%;
+	}
+	#read {
+		width: 45%;
+		height: 25%;
+		top: 72%;
+	}
+	.body3 {
+		width:60%;
+		height: 67%;
+	}
+	.connect {
+		width:20%;
+		left: 77%;
+		padding-top: 6.7%;
+	}
+	.connectme{
+		width: 77%;
+		left: 11%;
+	}
+	.links {
+		width:100%;
+	}
+}
+
+@media screen and (max-width:640px){
+	.header {
+		width:30%;
+		padding: .1%;
+	}
+	.body {
+		width:65%;
+		height:100%;
+		left: .2%;
+	}
+	#bio-image {
+		width: 40%;
+		height: 28%;
+	}
+	.body2 {
+		width: 63%;
+		height: 100%;
+	}
+	#imageone, #imagetwo {
+		width: 45%;
+		height: 5%;
+		top: 27%;
+	}
+	#imagethree, #imagefour {
+		width: 45%;
+		height: 5%;
+		top: 57%;
+	}
+	#imagefive {
+		width: 45%;
+		height: 5%;
+		top: 87%;
+	}
+	#spin, #cook {
+		width: 45%;
+		height: 25%;
+		top: 12%;
+	}
+	#travel, #music {
+		width: 45%;
+		height: 25%;
+		top: 42%;
+	}
+	#read {
+		width: 45%;
+		height: 25%;
+		top: 72%;
+	}
+	.body3 {
+		width:63%;
+		height: 67%;
+	}
+	.connect {
+		width:20%;
+		left: 78%;
+		padding-top: 9.5%;
+	}
+	.connectme{
+		width: 85%;
+		left: 9%;
+	}
+	.links {
+		width:100%;
+	}
+}
