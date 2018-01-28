@@ -1,5 +1,4 @@
 # Responsive-Portfolio
-Responsive-Portfolio 
 
 ** Mobile & Web Responsive portfolio **
 
